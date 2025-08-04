@@ -48,4 +48,5 @@ public class ThymeleafController {
         model.addAttribute("map", map);
         return "/basic/variable_object";
     }
+
 }
