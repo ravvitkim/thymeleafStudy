@@ -14,7 +14,6 @@ import java.util.List;
 public class ProductController {
     @GetMapping("infoPrint")
     public String productInfoPrint(Model model) {
-
         List<Product> productList = new ArrayList<>();
         productList.add(new Product("콜라", 1000, 10));
         productList.add(new Product("사이다", 1200, 7));
